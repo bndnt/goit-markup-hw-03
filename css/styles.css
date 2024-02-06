@@ -134,25 +134,32 @@ letter-spacing: 0.48px;
 text-decoration-line: underline;
 }
 .container{
-    
-   
+    width: 1158px;
     margin: 0 auto;
+}
+.section{
+    padding: 120px 0;
+}
+header{
+border-bottom: 1px solid #E7E9FC;
+background-color:  #FFF;
 }
 .head__flex{
     
-    
-
+}
+header .container{
+    display: flex;
 }
 .head nav {
-    
+    display: flex;
 }
 
 .head nav ul{
-    
+    display: flex;
 }
 
 .head address ul{
-    
+    display: flex;
 }
 
 .logo{
@@ -316,6 +323,13 @@ color: #2e2f42;
 }
 .portfolio__title{
 
+}
+.ortfolio__ul{
+    display: flex;
+}
+.portfolio__list{
+border: 1px solid #E7E9FC;
+background-color:  #FFF;
 }
 .portfolio__list-title{
 color:  #2E2F42;
