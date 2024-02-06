@@ -288,8 +288,8 @@ display: inline-block;
     display: flex;
 }
 .methody__block{
- margin-right: 24px;   
  width: calc((100% - 3 * 24px) / 4); 
+ margin-right: 24px;    
 }
 .methody__main-title{
     display: none;
@@ -326,9 +326,9 @@ color: #2e2f42;
     padding: 32px 0;
 }
 .team__block{
+    width: calc((100% - 72px) / 4);
     margin-right: 24px;
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px; 
 }
 .team__block:last-child{
