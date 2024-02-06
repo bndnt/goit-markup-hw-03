@@ -289,16 +289,16 @@ display: inline-block;
 }
 .methody__block{
  margin-right: 24px;   
- width: calc((100% - 72px) / 4); 
+ width: calc((100% - 3 * 24px) / 4); 
 }
 .methody__main-title{
-    visibility: hidden;
+    display: none;
 }
 .methody__block:last-child{
     margin-right: 0;
 }
 .methody__title{
-    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
