@@ -387,6 +387,7 @@ letter-spacing: 0.32px;
 }
 .footer{
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 .footer__info{
     color: #F4F4FD;
@@ -394,4 +395,11 @@ letter-spacing: 0.32px;
 }
 .logo-footer__span{
     color: #F4F4FD;
+}
+.footer__logo{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.footer__info{
+    max-width: 264px;
 }
