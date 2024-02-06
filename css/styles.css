@@ -21,6 +21,9 @@ body{
 *::after {
     
 }
+.visually-hidden{
+    display: none;
+}
 
 /* Links */
 
@@ -288,11 +291,11 @@ display: inline-block;
     display: flex;
 }
 .methody__block{
- width: calc((100% - 3 * 24px) / 4); 
+flex-basis: calc((100% - 3 * 24px) / 4);
  margin-right: 24px;    
 }
 .methody__main-title{
-    display: none;
+    
 }
 .methody__block:last-child{
     margin-right: 0;
@@ -326,7 +329,7 @@ color: #2e2f42;
     padding: 32px 0;
 }
 .team__block{
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
     margin-right: 24px;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px; 
@@ -357,9 +360,9 @@ text-align: center;
     row-gap: 48px;
 }
 .portfolio__list{
+width: calc((100% - 48px) / 3);
 border: 1px solid #E7E9FC;
 background-color:  #FFF;
-width: calc((100% - 48px) / 3); 
 }
 .portfolio__list-cover{
     padding: 32px 16px;
